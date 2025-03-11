@@ -1,0 +1,46 @@
+# General
+.DS_Store
+*.log
+*.tmp
+.env
+
+# Backend (.NET)
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+.vs/
+*.db
+*.sqlite
+*.dll
+*.exe
+*.pdb
+
+# Frontend (Angular/Ionic)
+node_modules/
+dist/
+www/
+coverage/
+.angular/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs & editors
+.vscode/
+.idea/
+*.swp
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+Thumbs.db
+Desktop.ini
+
+# Logs and databases
+*.sqlite
+*.sqlite3
+*.db-journal
