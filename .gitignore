@@ -7,6 +7,7 @@
 # Backend (.NET)
 bin/
 obj/
+publish/
 *.user
 *.suo
 *.userprefs
@@ -24,6 +25,8 @@ dist/
 www/
 coverage/
 .angular/
+package-lock.json
+yarn.lock
 *.log
 npm-debug.log*
 yarn-debug.log*
