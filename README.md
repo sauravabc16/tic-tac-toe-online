@@ -13,7 +13,19 @@
 ---
 
 ## 📂 Project Structure
-tic-tac-toe-online/ ├── backend/ │ └── TicTacToeOnlineApi/ │ ├── Controllers/ │ │ └── SessionController.cs │ ├── Models/ │ │ ├── Session.cs │ │ └── MoveRequest.cs │ ├── Services/ │ │ └── SessionService.cs │ ├── Program.cs │ └── TicTacToeOnlineApi.csproj └── frontend/ └── tic-tac-toe-ionic/ ├── src/ │ ├── app/ │ │ ├── components/ │ │ │ ├── board/ │ │ │ ├── player-info/ │ │ │ └── session-setup/ │ │ └── services/ │ │ ├── tic-tac-toe.service.ts │ │ ├── session.service.ts │ │ └── player.service.ts ├── ionic.config.json └── package.json
+
+```
+tic-tac-toe-online/
+├── backend/
+│   ├── Controllers/
+│   ├── Models/
+│   ├── Services/
+│   ├── Program.cs
+│   └── TicTacToeOnlineApi.csproj
+├── frontend/
+│   └── index.html
+└── tic-tac-toe-online.sln
+```
 
 
 ---
@@ -89,26 +101,22 @@ http://localhost:5000
 Navigate to frontend:
 
 ```bash
-cd ../../frontend/tic-tac-toe-ionic
+cd ../../frontend
 ```
 
-Install dependencies:
+Install dependencies (if using a framework like Angular/Ionic):
 
 ```bash
 npm install
 ```
 
-Serve frontend locally:
+Serve frontend locally (for Angular/Ionic projects):
 
 ```bash
-ionic serve
+npm start
 ```
 
-The frontend app will open automatically in your default browser at:
-
-```
-http://localhost:8100
-```
+If you are using the provided `index.html`, simply open it in your browser.
 
 ---
 
